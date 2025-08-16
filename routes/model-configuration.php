@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Whilesmart\LaravelConfiguration\Http\Controllers\ConfigurationController;
+use Whilesmart\ModelConfiguration\Http\Controllers\ConfigurationController;
 
 /*
 |--------------------------------------------------------------------------

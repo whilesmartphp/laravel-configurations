@@ -1,11 +1,11 @@
 <?php
 
-namespace Whilesmart\LaravelConfiguration\Traits;
+namespace Whilesmart\ModelConfiguration\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Whilesmart\LaravelConfiguration\Enums\ConfigValueType;
-use Whilesmart\LaravelConfiguration\Models\Configuration;
+use Whilesmart\ModelConfiguration\Enums\ConfigValueType;
+use Whilesmart\ModelConfiguration\Models\Configuration;
 
 trait Configurable
 {

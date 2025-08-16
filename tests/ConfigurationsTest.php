@@ -5,7 +5,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
 use Orchestra\Testbench\Attributes\WithMigration;
 use Orchestra\Testbench\TestCase;
-use Whilesmart\LaravelConfiguration\Enums\ConfigValueType;
+use Whilesmart\ModelConfiguration\Enums\ConfigValueType;
 use Workbench\App\Models\User;
 
 use function Orchestra\Testbench\workbench_path;
@@ -261,7 +261,7 @@ class ConfigurationsTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-            'Whilesmart\LaravelConfiguration\ConfigurationServiceProvider',
+            'Whilesmart\ModelConfiguration\ConfigurationServiceProvider',
         ];
     }
 }

@@ -1,7 +1,7 @@
 laravel: '@testbench'
 
 providers:
-  - Whilesmart\LaravelConfiguration\ConfigurationServiceProvider
+  - Whilesmart\ModelConfiguration\ConfigurationServiceProvider
 
 workbench:
   start: '/'

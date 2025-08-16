@@ -1,6 +1,6 @@
 <?php
 
-namespace Whilesmart\LaravelConfiguration\Models;
+namespace Whilesmart\ModelConfiguration\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

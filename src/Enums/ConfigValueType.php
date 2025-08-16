@@ -1,6 +1,6 @@
 <?php
 
-namespace Whilesmart\LaravelConfiguration\Enums;
+namespace Whilesmart\ModelConfiguration\Enums;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Log;

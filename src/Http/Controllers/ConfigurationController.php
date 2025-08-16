@@ -1,14 +1,14 @@
 <?php
 
-namespace Whilesmart\LaravelConfiguration\Http\Controllers;
+namespace Whilesmart\ModelConfiguration\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Validator;
 use OpenApi\Attributes as OA;
-use Whilesmart\LaravelConfiguration\Enums\ConfigValueType;
-use Whilesmart\LaravelConfiguration\Traits\ApiResponse;
+use Whilesmart\ModelConfiguration\Enums\ConfigValueType;
+use Whilesmart\ModelConfiguration\Traits\ApiResponse;
 
 class ConfigurationController extends Controller
 {

@@ -1,5 +1,5 @@
 {
-    "name": "whilesmart/laravel-configurations",
+    "name": "whilesmart/laravel-model-configuration",
     "description": "Package for managing configurations across our projects",
     "license": "MIT",
     "authors": [
@@ -10,13 +10,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Whilesmart\\LaravelConfiguration\\": "src"
+            "Whilesmart\\ModelConfiguration\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ConfigurationServiceProvider"
+                "Whilesmart\\ModelConfiguration\\ConfigurationServiceProvider"
             ]
         }
     },
