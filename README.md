@@ -9,12 +9,48 @@ This Laravel package provides a complete configuration solution ready to be inte
 * **Configuration file:** Easily customize settings.
 * **Laravel agnostic considerations:** designed with future framework agnosticism in mind.
 
+## Development
+
+This package includes a Docker development environment and Makefile for easy development.
+
+### Quick Start
+
+```bash
+# Start the development environment
+make up
+
+# Install dependencies
+make install
+
+# Run tests
+make test
+
+# Run code formatter
+make pint
+
+# Show all available commands
+make help
+```
+
+### Available Make Commands
+
+- `make up` - Start Docker containers
+- `make down` - Stop Docker containers
+- `make install` - Install dependencies
+- `make test` - Run tests
+- `make pint` - Run Laravel Pint code formatter
+- `make lint` - Alias for pint
+- `make fresh` - Fresh start (down, up, install)
+- `make setup` - Complete setup with tests
+- `make check` - Run all checks (formatting + tests)
+- `make shell` - Access container shell
+
 ## Installation
 
 ### 1. Require the package
 
    ```bash
-   composer require whilesmart/model-configuration
+   composer require whilesmart/laravel-model-configuration
    ```
 
 ### 2. Publish the configuration and migrations:
